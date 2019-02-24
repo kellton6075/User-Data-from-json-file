@@ -3,7 +3,7 @@ Steps For Running This App:
 Step 1:
 Take clone of the project and move to the folder using
 
-cd user-data/
+cd user-data-from-json-file/
 
 Step 2 :
 Install the required packages using this command
