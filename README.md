@@ -1,7 +1,7 @@
 Steps For Running This App:
 
 Step 1:
-Migrate to the project which you have extracted.
+Take clone of the project and move to the folder using
 
 cd user-data/
 
