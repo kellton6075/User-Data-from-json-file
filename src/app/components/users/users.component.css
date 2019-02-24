@@ -1,0 +1,9 @@
+.sort {
+    height: 15px;
+}
+.panel {
+    border: solid;
+}
+.cursor {
+    cursor: pointer;
+  }

@@ -1,0 +1,13 @@
+<div class="panel-footer">
+  <div class="row">
+    <div class="col col-xs-4">Showing Page {{currentPage}} of {{totalPages}}
+    </div>
+    <div class="col col-xs-8">
+      <ul class="pagination hidden-xs pull-right cursor">
+        <li [ngClass]="{ 'disabled': currentPage == startPage }" (click)="onPrev()"><a>prev</a></li>
+        <li [class.active]="currentPage == page" *ngFor="let page of pagesArray" (click)="onPage(page)"><a>{{page}}</a></li>
+        <li [ngClass]="{ 'disabled': currentPage == endPage }" (click)="onNext()"><a href="#">next</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
